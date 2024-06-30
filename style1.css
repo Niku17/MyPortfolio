@@ -45,14 +45,18 @@ h2{
     box-shadow: 1px 7px 14px rgba(30, 242, 231, 0.5);
 
 }
-footer{
-    color:aqua;
-    text-align: center;
-}
 .para{
     justify-content: center;
     text-align: center;
     color:aqua;
     font-size:2.4em;
+}
+hr{
+    color:white;
+}
+footer{
+    font-size: 1.2em;
+    color:antiquewhite;
+    text-align:center;
 }
 
