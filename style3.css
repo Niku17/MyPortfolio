@@ -1,0 +1,124 @@
+body{
+    background-color:black;
+            color: white;
+        }
+
+.nav {
+display: flex;
+align-items: center;
+justify-content: center; 
+}
+h1{
+    text-align: center;
+    border-width:50%;
+    border:solid aqua;
+}
+
+    th{
+    padding:20px;
+    }
+            a{
+                text-decoration: none;
+                color:white;
+            }
+            a:hover{
+                color: aqua;
+              }
+.webd{
+display: flex;
+margin-top: 20px;
+margin-left: 20px;
+justify-content: space-evenly;
+}
+.skill-percentage{
+text-align: center;
+justify-content: center;
+}
+.html img{
+background-color: orange;
+width: 150px;
+height: 150px;
+border-radius:50%;
+padding:20px;
+box-shadow:0 4px 8px white;
+border:solid white;
+}
+img:hover{
+cursor: pointer;
+opacity:0;
+}
+.html:hover .skill-percentage{
+color:white;
+opacity: 1;
+text-align: center;
+justify-content: center;
+}
+.css img{
+background-color: aqua;
+width: 150px;
+height: 150px;
+border-radius:50%;
+padding:20px;
+box-shadow:0 4px 8px white;
+border:solid white;
+}
+
+.css:hover .skill-percentage{
+color:white;
+opacity: 1;
+text-align: center;
+justify-content: center;
+}
+.js img{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    padding:20px;
+    box-shadow:0 4px 8px white;
+    border:solid white;
+    }
+.js:hover .skill-percentage{
+    color:white;
+    opacity: 1;
+    text-align: center;
+    justify-content: center;
+    }
+
+.programming{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.databases{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: space-evenly;
+}
+.sql img{
+    background-color:antiquewhite;
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    padding:20px;
+    box-shadow:0 4px 8px white;
+    border:solid white;
+}
+.mdb img{
+    background-color:orange;
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    padding:20px;
+    box-shadow:0 4px 8px white;
+    border:solid white;
+}
+hr{
+    color:white;
+}
+footer{
+    font-size: 1.2em;
+    color:antiquewhite;
+    text-align:center;
+}
